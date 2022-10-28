@@ -26,7 +26,7 @@ class Program
         Console.Write("Enter the height (cm): ");
         height = Convert.ToInt32(Console.ReadLine());
 
-        area = ( length * width * height ) / 3;
+        area = (length * width * height) / 3;
 
         Console.WriteLine("");
         Console.WriteLine("The volume is: " + area + " cm³. ");
