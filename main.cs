@@ -18,18 +18,18 @@ class Program
         Console.WriteLine("");
 
         Console.Write("Enter the length of side A (cm): ");
-        width = Convert.ToInt32(Console.ReadLine());
+        width = Convert.ToSingle(Console.ReadLine());
 
         Console.Write("Enter the length of side B (cm): ");
-        length = Convert.ToInt32(Console.ReadLine());
+        length = Convert.ToSingle(Console.ReadLine());
 
         Console.Write("Enter the height (cm): ");
-        height = Convert.ToInt32(Console.ReadLine());
+        height = Convert.ToSingle(Console.ReadLine());
 
         area = (length * width * height) / 3;
 
         Console.WriteLine("");
-        Console.WriteLine("The volume is: " + area + " cm³. ");
+        Console.WriteLine("The volume is: " + area.ToString("0.00") + " cm³. ");
 
         Console.WriteLine("\nDone.");
     }
